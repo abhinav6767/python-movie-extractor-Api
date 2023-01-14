@@ -2,7 +2,7 @@ const { time } = require('console');
 const express = require('express');
 const app = express();
 fileSystem = require('fs');
-const PORT = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
